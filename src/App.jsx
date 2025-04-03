@@ -38,7 +38,7 @@ export function App() {
                 <button className="bg-dark-blue w-10.5 h-10.5 rounded-full text-sm text-medium-grey focus:bg-medium-grey focus:text-white font-bold hover:bg-orange hover:text-white cursor-pointer duration-700 sm:w-13 sm:h-13" onClick={() => handleChangeRateNote(5)}>5</button>
             </div>
 
-            <button onClick={handleSubmit} className="bg-orange w-full py-3 rounded-3xl uppercase font-bold tracking-1 hover:bg-white hover:text-orange duration-700 cursor-pointer">Submit</button>
+            <button onClick={handleSubmit} className="bg-orange w-full py-3 rounded-3xl uppercase font-bold tracking-1 hover:bg-white hover:text-orange duration-700 cursor-pointer mb-4">Submit</button>
         </div>
         ) : (
             <div className="bg-radil-gradient text-white rounded-2xl p-6 max-w-103 font-overpass text-center">
@@ -48,7 +48,7 @@ export function App() {
 
                 <h1 className="text-2xl font-bold mb-2.5">Thank You!</h1>
 
-                <p className="text-sm text-light-grey leading-1 ">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+                <p className="text-sm text-light-grey leading-1 mb-3">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
             </div>
         )
     )
